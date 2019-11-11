@@ -16,12 +16,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * test codes for setting of user profile.
  */
-public class UserProfileTest {
+public class SetProfileCommandsTest {
     private UserProfile testUserProfile = new UserProfile();
     private ProfileCommands profileCommands = new ProfileCommands(testUserProfile);
 
 
-    UserProfileTest() throws IOException {
+    SetProfileCommandsTest() throws IOException {
     }
 
     @Test

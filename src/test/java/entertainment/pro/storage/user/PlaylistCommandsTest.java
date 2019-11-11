@@ -6,6 +6,7 @@ import entertainment.pro.model.MovieInfoObject;
 import entertainment.pro.model.Playlist;
 import entertainment.pro.model.PlaylistMovieInfoObject;
 import entertainment.pro.model.UserProfile;
+import entertainment.pro.storage.user.PlaylistCommands;
 import entertainment.pro.storage.utils.EditProfileJson;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
@@ -21,7 +22,7 @@ import java.util.TreeMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PlaylistTest {
+public class PlaylistCommandsTest {
     private final String playlistName = "testName";
     private Playlist testPlaylist = new Playlist(playlistName);
     private final String playlistDescription = "testDescription";
